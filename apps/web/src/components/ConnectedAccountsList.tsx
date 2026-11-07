@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { CheckCircle2, AlertCircle, Trash2, Calendar, Shield, Loader2 } from "lucide-react";
-import { EmailAccount } from "../types";
+import { EmailAccount } from "@/types";
 
 interface Props {
   accounts: EmailAccount[];

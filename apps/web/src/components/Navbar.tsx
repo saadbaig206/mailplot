@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Mail, ShieldCheck, User as UserIcon } from "lucide-react";
-import { User } from "../types";
+import { User } from "@/types";
 
 interface NavbarProps {
   user: User | null;

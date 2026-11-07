@@ -12,11 +12,11 @@ import {
   Layers,
   ArrowLeft,
 } from "lucide-react";
-import { Navbar } from "../../components/Navbar";
-import { ConnectedAccountsList } from "../../components/ConnectedAccountsList";
-import { ConnectButton } from "../../components/ConnectButton";
-import { disconnectEmailAccount, fetchEmailAccounts, fetchMe } from "../../lib/api";
-import { EmailAccount, User } from "../../types";
+import { Navbar } from "@/components/Navbar";
+import { ConnectedAccountsList } from "@/components/ConnectedAccountsList";
+import { ConnectButton } from "@/components/ConnectButton";
+import { disconnectEmailAccount, fetchEmailAccounts, fetchMe } from "@/lib/api";
+import { EmailAccount, User } from "@/types";
 
 export default function DashboardPage() {
   const [token, setToken] = useState<string>("");

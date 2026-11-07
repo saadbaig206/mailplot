@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Loader2 } from "lucide-react";
-import { startOAuth } from "../lib/api";
+import { startOAuth } from "@/lib/api";
 
 interface Props {
   provider: "google" | "microsoft";

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { FileText, AlertTriangle, ArrowLeft, Mail, Scale } from "lucide-react";
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export default function TermsOfServicePage() {
   return (
